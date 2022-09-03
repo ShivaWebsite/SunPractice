@@ -1,0 +1,29 @@
+<html>
+<head>
+<script>
+//alert("hi");
+
+function f1()
+{
+console.log("hi");
+var obj1 = document.getElementById("myp");
+obj1.innerHTML="hjhhj";
+console.log("hello")
+}
+function c1()
+{
+alert("hello");
+}
+
+</script>
+</head>
+<body onload="f1();">
+<form>
+<input type="date" value="">
+<input type="password" value="">
+<input type="text" value="">
+<input type="button" value="Click me"  onclick="c1()"/>
+</form>
+<p id="myp" onclick="(function(){alert(this);})()"/>
+</body>
+</html>

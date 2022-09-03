@@ -1,0 +1,25 @@
+<html>
+<style>
+#id1{
+padding-top:80px;
+padding-right:20px;
+padding-bottom:50px;
+padding-left:20px;
+
+}
+
+div{
+margin:20px;
+}
+
+</style>
+<form>
+<div>
+
+<input type="text" name="myname" placeholder="User Name">
+</div>
+<div>
+
+<input type="text" name="pswrd" placeholder="password">
+</div>
+</form>

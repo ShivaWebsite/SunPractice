@@ -1,0 +1,6 @@
+<html>
+<div class="menubar">
+<a class="active" href="css4.html">File</a>
+  <a href="css4.html">Edit</a>
+  <a href="css4.html">Seach</a>
+  <a href="#about">View</a>

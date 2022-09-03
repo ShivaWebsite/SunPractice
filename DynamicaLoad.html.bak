@@ -1,0 +1,38 @@
+<script>
+function ShowDiv()
+{
+	var obj1 = document.getElementById("Types");
+	if(obj1.value=="student")
+	{
+		document.getElementById("student").style.visibility="visible";
+		document.getElementById("Customer").style.visibility="hidden";
+		document.getElementById("Employee").style.visibility="hidden";
+
+	}
+	if(obj1.value=="Customer")
+	{
+		document.getElementById("student").style.visibility="hidden";
+		document.getElementById("Customer").style.visibility="visible";
+		document.getElementById("Employee").style.visibility="hidden";
+
+	}
+}
+</script>
+<body>
+<select id="Types" onchange="ShowDiv();">
+<option>student</student>
+<option>Customer</student>
+<option>Employee</student>
+</select>
+<div id="student">
+I am student
+</div>
+<div id="Customer">
+I am Customer
+</div>
+
+<div id="Employee">
+I am Employee
+</div>
+<body>
+

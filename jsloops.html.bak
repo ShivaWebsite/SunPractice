@@ -1,0 +1,29 @@
+<html>
+<head>
+<script>
+function hide()
+{
+	var obj = document.getElementById("myDiv");
+	obj.style.display = "none";
+}
+function show()
+{
+	var obj = document.getElementById("myDiv");
+	obj.style.display = "block";
+}
+</script>
+</head>
+<body>
+<div style="color:blue" id="myDiv">
+<p>some examples for div</p>
+<p>jdfhjshfjsdh</p>
+<form >
+<label>jdklfjljdslfjk</label>
+
+</form>
+
+</div>
+<input type="button" value="Hide" onclick="hide()">
+<input type="button" value="Show" onclick="show()">
+</body>
+</html>

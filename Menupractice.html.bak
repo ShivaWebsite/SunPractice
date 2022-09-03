@@ -1,0 +1,98 @@
+<html>
+
+<style>
+a{
+font-size:14px;
+text-transform:uppercase;
+}
+.menu{
+background:#909090;
+}
+
+.menu:after{
+content:'';
+clear:both;
+display:block;
+}
+
+.menu ul{
+list-style:none;
+margin:0;
+}
+
+.menu > ul >li{
+float:left;
+position:relative;
+margin:10px;
+}
+
+.menu ul li a{
+color:#330099;
+padding:10px 20px;
+display:block;
+}
+.menu ul li:hover a{
+background:#ff26;
+}
+.menu ul ul{
+position:absolute;
+padding:0;
+min-width:100px;
+top:100%
+left:0;
+display:none;
+}
+.menu ul li:hover ul{
+display:block;
+}
+.menu ul ul li:hover a{
+background:#666459;
+}
+
+.menu ul ul li{
+position:relative;
+}
+.menu ul ul ul{
+top:0;
+left:100%;
+}
+.menu ul ul ul li:hover a{
+background:#331459;
+}
+
+
+</style>
+
+<nav class="menu">
+<ul>
+  <li><a href="#">country</a></li>
+  <li><a href="#">states</a></li>
+  <li><a href="#">districts</a>
+	<ul>
+		<li><a href="#">raichur</a></li>
+		<li><a href="#">bangalore</a></li>
+		<li><a href="#">koppal</a>
+			<ul>
+				<li><a href="#">historic place</a></li>
+				<li><a href="#">schools</a></li>
+				<li><a href="#">temples</a>
+					<ul>
+						<li><a href="#">SG temple</a></li>
+						<li><a href="#">Hanuman temple</a></li>
+						<li><a href="#">Eeshwar temple</a></li>
+						
+					</ul>
+				</li>
+				<li><a href="#">gardens</a></li>
+			</ul>
+		</li>
+		<li><a href="#">gulbarga</a></li>
+	</ul>
+  </li>
+  <li><a href="#">taluqs</a></li>
+</ul>
+
+
+
+
+</html>

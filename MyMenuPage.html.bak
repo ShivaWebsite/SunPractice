@@ -1,0 +1,78 @@
+<style>
+body
+{
+margin:0;
+background:#00f2f2;
+}
+.nav{
+width:100%;
+background:#450033;
+height:80px;
+}
+ul{
+list-style:none;
+padding:0;
+margin:0;
+position:absolute;
+}
+ul li{
+float:left;
+margin-top:20px;
+}
+ul li a{
+width:150px;
+color:red;
+display:block;
+text-decoration:none;
+font-size:20px;
+padding:10px;
+border-radius:1opx;
+font-weight:bold;
+}
+a:hover
+{
+background:#657897;
+}
+ul li ul
+{
+background:#00033;
+}
+
+ul li ul li
+{
+float:none;
+padding:10px;
+}
+ul li:hover ul{
+display:block;
+}
+ul li ul li a:hover{
+background:#4f4f4f;
+}
+
+</style>
+<div class="nav">
+	<ul>
+		<li><a href="#">One</a></li>
+		<li><a href="#">two</a></li>
+		<li>
+			<ul>
+				<li><a href="#">two-One</a></li>
+				<li><a href="#">two-two</a></li>
+				<li><a href="#">two-three</a></li>
+				<li><a href="#">two-four</a></li>
+			</ul>
+		</li>
+		<li><a href="#">One</a></li>
+		<li><a href="#">One</a></li>
+		<li>
+		<ul>
+			<li><a href="#">One</a></li>
+			<li><a href="#">One</a></li>
+			<li><a href="#">One</a></li>
+			<li><a href="#">One</a></li>
+		</ul>
+		</li>
+		<li><a href="#">One</a></li>
+	</ul>
+</div>

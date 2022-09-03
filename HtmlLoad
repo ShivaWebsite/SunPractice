@@ -1,0 +1,9 @@
+<script>
+var 
+</scrip>
+<form>
+<input type="date" value="">
+<input type="password" value="">
+<input type="text" value="">
+</form>
+<p id="myp"></p>

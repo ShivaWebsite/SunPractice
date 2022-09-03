@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>practise</title>
+<script>
+function validate()
+{
+	//alert("hi");
+	var obj = document.getElementById("passwprd");
+	var obj1 = document.getElementById("myname");
+//	console.log(obj.value);
+	//alert(obj.value);
+	if(obj.value=="" && obj1.value=="")
+	{
+		document.getElementById('demo1').innerHTML = "psswd cannot be blank. please enter valid name";
+		document.getElementById('demo').innerHTML = "name cannot be blank. please enter valid name";
+	return false;
+	}
+	alert("hello");
+}
+</script>
+</head>
+<body>
+<p>Texbox</p>
+<form action="htmlvalidation.html" onsubmit="return validate();"/>
+<label for="myname">Name</lable>
+<input type="text" id="myname" name="myname" >
+<br>
+<br>
+<label for="adress":>password</label>
+<input type="text" id="passwprd" name="password"><br>
+<input type="submit" value="submit">
+</form>
+<p id="demo"></p>
+<p id="demo1"></p>
+</body>
+</html>

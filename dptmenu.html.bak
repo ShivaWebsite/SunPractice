@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>Dropdown MenuPage</title>
+</head>
+
+<body>
+
+</body>
+<style>
+a{
+font-size:12px;
+text-transform:uppercase;
+}
+
+.nav-area{
+background: #882626;
+}
+
+.nav-area:after{
+content:'';
+clear:both;
+display:block;
+}
+
+.nav-area ul{
+list-style:none;
+margin:0;
+}
+.nav-area > ul >li{
+float:left;
+position:relative;
+}
+
+.nav-area ul li a{
+text-decoration:none;
+color:#fff;
+padding:15px 20px;
+display:block;
+}
+
+.nav-area ul li:hover a{
+background:#77495a;
+}
+
+.nav-area ul ul{
+position:absolute;
+padding:0;
+min-width:115px;
+display:none;
+top:50%;
+left:0;
+
+}
+
+.nav-area ul li:hover>ul{
+display:block;
+width:10px;
+}
+
+.nav-area ul ul li:hover a{
+background:#266626;
+}
+
+.nav-area ul ul li{
+position:relative;
+text-align:center;
+margin-top: 0.05em;
+
+
+
+.nav-area ul ul ul{
+top:0;
+left:100%;
+}
+
+.nav-area ul ul ul li:hover a{
+background:#31595a;
+
+
+
+}
+
+
+</style>
+<nav class="nav-area">
+<ul>
+    <li><a href="#">eng dept</a></li>
+	<li><a href="#">navy dept</a></li>
+	<li><a href="#">police dept<a>
+	   <ul>
+            <li><a href="#">dgigp</a></li>
+	        <li><a href="#">sp<//a></li>
+			<li><a href="#">psi<a>
+			<li><a href="#">pc</a>
+				<ul>
+					<li><a href="#">beet pc</a></li>
+					<li><a href="#">court</a></li>
+					<li><a href="#">outdoor<a></li>
+					<li><a href="#">indoor</a>
+						<ul>
+							<li><a href="#">it pc </a></li>
+							<li><a href="#">computer pc</a></li>
+							<li><a href="#">writer pc<a></li>
+							<li><a href="#">passport vrfy pc</a></li>
+							<li><a href="#">writer2 pc</a></li>
+						</ul>
+					</li>
+						
+					<li><a href="#">summons</a></li>
+				</ul>
+			</li>
+			<li><a href="#">hg</a></li>
+      </ul>
+	</li>
+	<li><a href="#">railway dept</a></li>
+	<li><a href="#">medical dept</a></li>
+</ul>
+
+</html>
+

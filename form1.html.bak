@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>practise</title>
+</head>
+<body>
+<form>
+<p>Texbox</p>
+<form action="form1.html"/>
+<label for="myname":>Name</lable>
+<input type="text" id="myname" name="myname" value="sunitha">
+<br>
+<br>
+<label for="adress":>Adress</label>
+<input type="text" id="adress" name="adress" value="Koppal">
+<br>
+<br>
+<input type="submit" value="Submit">
+<br>
+<p>Radio Buttons</p>
+<form action="form1.html">
+<input type="radio" id="s" name="Subject" value="Biology" >
+<label for="s":>Science</lable>
+<br>
+<input type="radio" id="m" name="Subject" value="Integers">
+<label for="m":>maths</label>
+<br>
+<br>
+<input type="submit" value="Submit">
+<br>
+<br>
+<p>select your fav subject</p>
+<label for ="Subjects":>Subjects</label>
+<select id="Subjects">
+<option value="m":>maths</option>
+<option value="b":>biology</option>
+<option value="c":>chemistry</option>
+<option value="p":>physics</option> 
+</select>
+ 
+<p>checkbox</p>
+<form action="form1.html">
+<input type="checkbox" id="a" name="Direction" value="Left">
+<label for="a":>left</label>
+<br>
+<input type="checkbox" id="b" name="Direction" value="Right">
+<label for=id="b":>Right</lable>
+<br>
+<input type="submit" value="Submit">
+</form>
+</body>

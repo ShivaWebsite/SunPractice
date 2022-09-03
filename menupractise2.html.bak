@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Dropdown MenuPage3</title>
+</head>
+
+<body>
+
+</body>
+<style>
+a{
+background:#232323;
+}
+
+.nav-dpt>ul>li{
+float:left;
+margin:10px;
+position:relative;
+list-style:none;
+}
+.nav-dpt ul li a{
+color:#fff;
+padding:15px 20px;
+display:block;
+}
+
+
+
+
+
+</style>
+
+
+<nav class="nav-dpt">
+<ul>
+<li a=href="#">engineering department</a>
+	<ol>
+		<li a=href="#">Cse</a></li>
+		<li a=href="#">Civil</a></li>
+		<li a=href="#">Aeronautical</a></li>
+		<li a=href="#">Biotechnical</a></li>
+		<li a=href="#">Mechanical</a></li>
+		<li a=href="#">Electrical</a></li>
+	</ol>
+<li a=href="#">science department</a></li>
+</li>
+</ul>
+</html>

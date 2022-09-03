@@ -1,0 +1,137 @@
+<html>
+
+<style>
+#id1{
+height:px;
+width:98%;
+border:1px solid blue;
+}
+#id2{
+height:500px;
+width:10%;
+margin-top:10px;
+margin-right:10px;
+float:left;
+border:1px solid blue;
+
+}
+#id3{
+height:40px;
+width:87%;
+margin-top:10px;
+float:left;
+border:1px solid blue;
+
+}
+#id4{
+height:450px;
+width:31%;
+margin-top:50px;
+float:left;
+margin-right:20px;
+border:1px solid blue;
+
+}
+#id5{
+height:450px;
+width:31%;
+margin-top:50px;
+float:left;
+margin-right:20px;
+border:1px solid blue;
+
+}
+#id6{
+height:450px;
+width:31%;
+margin-top:50px;
+float:left;
+border:1px solid blue;
+
+}
+#id7{
+height:40px;
+width:98%;
+margin-top:10px;
+border:1px solid blue;
+float:left;
+}
+body
+{
+margin:0;
+background:#00f2f2;
+}
+.nav{
+width:100%;
+background:#450033;
+height:80px;
+}
+ul{
+list-style:none;
+padding:0;
+margin:0;
+position:absolute;
+}
+ul li{
+float:left;
+margin-top:20px;
+}
+ul li a{
+width:150px;
+color:red;
+display:block;
+text-decoration:none;
+font-size:20px;
+padding:10px;
+border-radius:1opx;
+font-weight:bold;
+}
+a:hover
+{
+background:#657897;
+}
+ul li ul
+{
+background:#456587;
+}
+</style>
+
+
+
+
+<div id="id1">
+1
+<div class="nav">
+<ul>
+<li><a href="#">One</a></li>
+<li><a href="#">two</a></li>
+<div class="sub-nav">
+	<ul>
+		<li><a href="#">two-One</a></li>
+		<li><a href="#">two-two</a></li>
+		<li><a href="#">two-three</a></li>
+		<li><a href="#">two-four</a></li>
+	</ul>
+</div>
+<li><a href="#">One</a></li>
+<li><a href="#">One</a></li>
+<ul>
+	<li><a href="#">One</a></li>
+	<li><a href="#">One</a></li>
+	<li><a href="#">One</a></li>
+	<li><a href="#">One</a></li>
+<li><a href="#">One</a></li>
+</ul>
+</div>
+</div>
+<div id="id2">2</div>
+<div id="id3">
+3
+<div id="id4">4</div>
+<div id="id5">5</div>
+<div id="id6">6</div>
+</div>
+
+<div id="id7">7</div>
+
+</html>
